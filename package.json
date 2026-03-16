@@ -1,0 +1,14 @@
+{
+  "name": "rakuzaichi",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "npx web-ext lint --source-dir src"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0",
+    "jsdom": "^25.0.0"
+  }
+}
